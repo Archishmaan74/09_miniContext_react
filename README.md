@@ -1,2 +1,11 @@
-# 09_miniContext_react
-A simple and responsive React frontend project built with Vite and styled using Tailwind CSS. This project focuses on practicing the useContext() hook by managing and sharing global state across multiple components, eliminating the need for prop drilling. Ideal for reinforcing React state management in a clean, modern UI setup.
+# React + Vite useContext() Practice App
+
+A simple and responsive React app built using **Vite** and styled with **Tailwind CSS**. This project is designed to help understand and implement the **`useContext()`** hook in React for managing global state without prop drilling.
+
+## What It Does
+
+- Wraps the application with a custom `UserContextProvider` to manage global state.
+- The `Login` component uses `useContext()` to update the global `user` state via `setUser()`.
+- The `Profile` component reads the global `user` data using `useContext()` and conditionally renders content based on login status.
+- Clean, reusable structure for practicing real-world use of React Context.
+
